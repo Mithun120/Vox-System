@@ -1,0 +1,55 @@
+.vox-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin: 50px;
+  }
+  
+  .vox-logo {
+    width: 200px;
+    margin-bottom: 50px;
+  }
+  
+  .vox-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    max-width: 600px;
+  }
+  
+  .vox-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .vox-image {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    animation-name: slide-in;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation: updown 3s linear infinite;
+    border-radius: 10px;
+  }
+  
+  @keyframes slide-in {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  
+  .vox-text {
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+  }
+  

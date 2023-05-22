@@ -1,0 +1,53 @@
+.service {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    transition: all 0.3s ease; /* Add transition effect */
+  }
+  
+  .service:hover {
+    transform: scale(1.05); /* Scale up the container on hover */
+  }
+  
+  .service-icon {
+    background-color: #007bff;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+    margin: 0 auto 10px auto;
+  }
+  
+  .service-icon i {
+    font-size: 30px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Add media queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    .service {
+      max-width: 100%;
+    }
+  }
+  
