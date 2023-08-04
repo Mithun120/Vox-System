@@ -25,9 +25,10 @@ const DomainUpload = () => {
         formData.append('DomainImg', domainImg);
         console.log("***" + domainImg);
         formData.append('title', title);
-        axios.post("http://localhost:4000/dapi/domainpost", formData, {}).then(res => {
+        axios.post("http://localhost:4000/dapi/domainpost", formData, {}).
+        then(res => {
             console.log(res);
-        });
+        }); 
     };
 
     return (
@@ -51,7 +52,7 @@ const DomainUpload = () => {
                                 <div className="form-group">
                                     <button type="submit" className="btn btn-primary">Save</button>
                                 </div>
-                            </form>
+                            </form> 
                         </div>
                     </div>
                 </div>

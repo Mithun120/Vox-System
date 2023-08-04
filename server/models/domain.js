@@ -10,4 +10,4 @@ const domainSchema = new Schema({
 }, {
     collection: 'domain'
 })
-module.exports = mongoose.model('Domain', domainSchema) 
+module.exports = mongoose.model('Domain', domainSchema)   

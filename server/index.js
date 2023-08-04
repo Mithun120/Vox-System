@@ -1,7 +1,7 @@
 let express = require('express'),
     mongoose = require('mongoose'),
     cors = require('cors'),
-    bodyParser = require('body-parser');
+    bodyParser = require('body-parser');          
 const dotenv=require('dotenv')
 dotenv.config();
 const api = require('../server/routes/user.routes')
@@ -24,7 +24,7 @@ app.use(bodyParser.urlencoded({
 }));   
 app.use(cors());
 app.use('/public', express.static('public'));
-app.use('/api', api)
+app.use('/api', api) 
 app.use('/dapi',dapi);
 app.use("/api/email", emailRoutes);
 

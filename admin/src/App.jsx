@@ -9,6 +9,7 @@ import DomainUplaod from './components/domainupload';
 import Mail from './mail';
 import Navbar from './navbar';
 import Header from './components/header';
+
 function App() {
 
   const [option, setOption] = useState(0);

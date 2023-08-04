@@ -13,9 +13,9 @@ const DomainUpdate = (props) => {
     // };
 
     const onFileChange = (e) => {
-      const file = e.target.files[0];
-      console.log(file.name);
-      setdomainImg(file);
+      // const file = e.target.files[0];
+      // console.log(file.name);
+      setdomainImg(e.target.files[0]);
     };
     
     useEffect(() => {

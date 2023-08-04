@@ -1,6 +1,6 @@
 import { useState, useEffect,useRef } from "react";
 import { Col, Row, Alert } from "react-bootstrap";
-import emailjs from "@emailjs/browser";
+import emailjs from "@emailjs/browser"; 
 export const Newsletter = ({ status, message, onValidated }) => {
   const form = useRef();
 

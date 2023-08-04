@@ -125,8 +125,8 @@ const Fileupdate = (props) => {
     
     useEffect(() => {
       console.log("Profile : "+profileImg);
-    }, [profileImg]);
-
+    }, [profileImg]); 
+    
     const onTitleChange = (e) => {
         setTitle(e.target.value);
     };

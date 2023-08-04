@@ -31,8 +31,8 @@ export const ProjectCard = ({ _id,profileImg,title,desc,githublink }) => {
           <img src={profileImg} alt={title} style={{ width: "100%", height: "auto" }} />
           <div className="proj-txtx" style={{ padding: "20px" }}>
             <h3>{title}</h3>
-            <p>{desc}</p>
-            <a href={githublink} style={{ color: "yellow", textDecoration: "none" }}>Github Link</a>
+            <p >{desc}</p>
+            <a href={githublink} style={{ color: "yellow", textDecoration: "none" }}>Site Link</a>
           </div>
         </div>
       </li>
